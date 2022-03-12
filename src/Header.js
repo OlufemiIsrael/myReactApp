@@ -1,11 +1,12 @@
 import react from 'react';
-import logo from './logo.svg';
-import playstore from './navAndroidButton.svg';
-import apple from './navIosButton.svg';
+import Logo from './Logo.svg';
+import NavAndroidButton from './NavAndroidButton.svg';
+import NavIosButton from './NavIosButton.svg';
 
 const Header = () => {
-  <header>
-    <img src={logo} alt="logo" />
+  return(
+    <header>
+    <img src={Logo} alt="logo" />
     <div>
       <li>Home</li>
       <li>About</li>
@@ -13,10 +14,11 @@ const Header = () => {
       <li>FAQ</li>
     </div>
     <span>
-      <img src={playstore} alt="playstore" />
-      <img src={apple} alt="appleStore" />
+      <img src={NavAndroidButton} alt="playstore" />
+      <img src={NavIosButton} alt="appleStore" />
     </span>
-  </header>;
+  </header>
+  )
 };
 
 export default Header;
