@@ -28,6 +28,9 @@ header {
 .navbar li:not(:last-child) {
   margin-right: 20px;
 }
+.navButton{
+  width: 5vw;
+}
 span img:not(:last-child){
     margin-right: 10px;
 }
@@ -39,7 +42,7 @@ span img:not(:last-child){
     display: block;
   }
   .logo{
-    width: 20%;
+    width: 30%;
   }
   span img{
     display: none;
